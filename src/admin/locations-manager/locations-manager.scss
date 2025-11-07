@@ -1,0 +1,59 @@
+.locations-manager {
+    .add-city-section {
+        background-color: #f8f9fa;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+    }
+
+    .accordion {
+        .accordion-header {
+            position: relative;
+
+            .btn-danger {
+                position: absolute;
+                right: 3rem;
+                z-index: 2;
+            }
+        }
+    }
+
+    .add-branch-form {
+        background-color: #f8f9fa;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+        margin-bottom: 1.5rem;
+
+        h4 {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .branch-item {
+        background-color: white;
+        transition: all 0.2s ease;
+
+        &:hover {
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        }
+
+        h5 {
+            color: #0d6efd;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 0.25rem;
+            color: #6c757d;
+        }
+    }
+
+    .save-changes-btn {
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.1rem;
+        z-index: 1000;
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+    }
+} 
